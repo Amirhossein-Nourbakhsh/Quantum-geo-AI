@@ -13,7 +13,12 @@ This research aims to bring a real-world geospatial applicationto the theory of 
    
   ![Net](https://github.com/Amirhossein-Nourbakhsh/Quantum-geo-AI/blob/main/video/net.gif)
   ![Cluster](https://github.com/Amirhossein-Nourbakhsh/Quantum-geo-AI/blob/main/video/time.gif)
+  
 2. Trajectory data structure
+   1. Import csv trj data to ArcGIS for GeoCoding data.
+   2. Export to feature class
+   3. Convert feature class to GeoJSON
+   4. Convert GeoJSON to Data Frame by using [GeoPandas](https://github.com/geopandas/geopandas)
 
 |     id     |      datetime      |  lon | lat |
 |----------|-------------|------|------|
@@ -22,10 +27,7 @@ This research aims to bring a real-world geospatial applicationto the theory of 
 | 2 |  02/01/2022 0:00  | 116.69183  |  39.8532 |
 | 2 |   02/01/2022 0:10 |  116.69166 |  39.8545 |
 
-   1. Import csv trj data to ArcGIS for GeoCoding data.
-   2. Export to feature class
-   3. Convert feature class to GeoJSON
-   4. Convert GeoJSON to Data Frame by using [GeoPandas](https://github.com/geopandas/geopandas)
+  
  
 3. Find nearest node to each trajectory point
 4. Find alternative shortest path
